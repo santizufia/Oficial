@@ -1,0 +1,182 @@
+body {
+    background-color: white;
+    color: black;
+    border: 10px dashed black;
+    height: 630px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: #002147;
+    border: 3px solid #0066CC;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    color: #002147;
+    border: 3px solid #0066CC;
+    text-align: center;
+    margin: 30px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23;
+    color: #002147;
+    border: 2px solid #0066CC;
+    text-align:center;
+    margin: 43px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+.column {
+    margin: 35px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+}
+  
+#boton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 25px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    color: red;
+    font-size: medium;
+}
+
+#MyForm {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 8px;
+    margin-left: 25px;
+}
+
+.foto {
+    width: 340px;
+    height: 220px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 200px;
+    margin-left: 40px;
+}
+
+.container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: grey;
+}
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+li>a {
+    padding: 8px 24px;
+}
+  
+li {
+    list-style-type: none;
+}
+  
+a {
+    color: white;
+    text-decoration: none;
+}
+  
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.button-menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+.column {
+    flex: 100%;
+}
+
+.nav-links {
+    display: none;
+}
+  
+.button-menu-toggle {
+    display: block;
+    background-color: white;
+    border:none;
+    border-radius: 50px;
+    padding: 0 24px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+    
+.nav-links.nav-links-responsive {
+    position: absolute;
+    display: flex;
+    background-color: rgba(20,20,20,0.95);
+    width: 100%;
+    height: 100%;
+    top: 70px;
+    left: 0;
+    flex-direction: column;
+    padding-top: 200px;
+    align-items: center;
+    gap:70px;
+    font-size: 40px;
+}
+}
+
+.video {
+    position: absolute;
+    top: 300px;
+}
+
+#video {
+    width: 350px;
+    height: 250px;
+    margin-left: 15px;
+}
+
+#correo {
+    text-decoration-line:underline ;
+}
+
+#enviar:hover {
+    cursor: pointer;
+    border-radius: 10px ;
+}
